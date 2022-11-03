@@ -9,7 +9,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-jobs:
   build:
 
     runs-on: ubuntu-latest
@@ -29,6 +28,4 @@ jobs:
       - run: npm install
         working-directory: ./findFitnessTrainer/findFitnessTrainer/ui
       - run: npm ci
-        working-directory: ./findFitnessTrainer/findFitnessTrainer/ui
-      - run: npm run build --if-present
         working-directory: ./findFitnessTrainer/findFitnessTrainer/ui
