@@ -30,5 +30,3 @@ jobs:
         working-directory: ./findFitnessTrainer/findFitnessTrainer/ui
       - run: npm ci
         working-directory: ./findFitnessTrainer/findFitnessTrainer/ui
-      - run: ng serve
-        working-directory: ./findFitnessTrainer/findFitnessTrainer/ui
