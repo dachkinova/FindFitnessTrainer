@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ui # The working directory path
+    working-directory: findFitnessTrainer/ui # The working directory path
 
 jobs:
   build:
